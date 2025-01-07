@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "21335208"))
-API_HASH = environ.get("API_HASH", "4cb201499c03fe54f817617d27b336aa")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7785413630:AAEW8JLe2Kpo8tWbPzV1RhZV-5FYEXHISnE")
+API_ID = int(environ.get("API_ID", "20395012"))
+API_HASH = environ.get("API_HASH", "982951349d6c3f627ed1cf451fadc1d5")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7953025201:AAHOMRXZe2AV89b5bSQUHhE8iepbaEcAh9g")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1505847875 6479526351 1577166444 6626261440 7252639965').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Siries_provider_Bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "TgFilesOBot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -35,8 +35,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://Itachilvda:Lvdaitachi@cluster0.f8qpy.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = environ.get("DB_NAME", "itachilvda")
+DB_URI = environ.get("DB_URI", "mongodb+srv://jianjantu:jinan01@cluster0.ibwhd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "jianjantu")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "10")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002283439905"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002309276882"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
